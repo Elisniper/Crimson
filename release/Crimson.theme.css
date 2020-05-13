@@ -1,0 +1,20 @@
+/**
+ * @name Crimson
+ * @version Stable
+ * @author Elisniper
+ * @source https://github.com/Elisniper/Crimson
+ * @description Material Crimson Theme.
+ * @website
+*/
+
+/* Discord Theme import */
+@import url(https://elisniper.github.io/Crimson/release/base.css);
+
+/* Theme info and version */
+.info-1VyQPT:after {
+    content: "Crimson Version 0.0.1 By Elisniper";
+    position: absolute;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+}
