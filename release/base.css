@@ -545,7 +545,7 @@ a[href="/channels/@me"] .numberBadge-2s8kKX{
 .message-2qnXI6 {
     padding-right: 60px !important;
 }
-.message-2qnXI6.groupStart-23k01U:after, .messageGroupWrapper-o-Zw7G .messageGroupCozy-2iY6cT:after, .inner-ZyuQk0 .message-2qRu38 .cozy-3raOZG:not(.message-2qnXI6):after, .messageContainer-gbhlwo .message-2DieIs:after, .messages-3G3erD .messageContainer-1ei2zM:first-of-type .message-2g38UB:after, {
+.message-2qnXI6.groupStart-23k01U:after, .messageGroupWrapper-o-Zw7G .messageGroupCozy-2iY6cT:after, .inner-ZyuQk0 .message-2qRu38 .cozy-3raOZG:not(.message-2qnXI6):after, .messageContainer-gbhlwo .message-2DieIs:after, .messages-3G3erD .messageContainer-1ei2zM:first-of-type .message-2g38UB:after {
     /* Bubble pointy end pointing to the avatar */
     content: " ";
     position: absolute;
