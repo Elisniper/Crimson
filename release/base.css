@@ -732,6 +732,7 @@ a[href="/channels/@me"] .numberBadge-2s8kKX{
     margin: 0;
     padding-left: 10px;
     padding-right: 0;
+    background-color: var(--cms-black2);
 }
 .channelTextArea-rNsIhG {
     padding-top: 0px;
@@ -740,7 +741,7 @@ a[href="/channels/@me"] .numberBadge-2s8kKX{
     background-color: transparent;
 }
 .channelTextArea-2VhZ6z .scrollableContainer-2NUZem {
-    background-color: var(--cms-black3);
+    background-color: var(--cms-black2);
     border-radius: 4px;
 }
 .scrollableContainer-2NUZem {
