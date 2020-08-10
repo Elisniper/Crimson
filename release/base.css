@@ -57,7 +57,7 @@
 .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
 	color: #fff;
 }
-.header-2o-2hj, .clickable-2ap7je .header-2o-2hj:hover {
+.header-2o-2hj, .clickable-2ap7je .header-2o-2hj:hover, .selected-WP3kCM .header-2o-2hj {
 	background-color: var(--cms-accent);
 }
 /* Top Icons Popouts */
@@ -126,7 +126,7 @@
     background-color: transparent !important;
 }
 .tabBar-ZmDY9v .item-3HknzM:hover[aria-label="Add Friend"] {
-	color: rgba(255, 255, 255, 0.6);
+	color: rgba(255, 255, 255, 0.5);
 	text-shadow: 0 0 8px #ffffff;
 	transition: 100ms ease;
 }
@@ -339,8 +339,7 @@ a[href="/channels/@me"] .numberBadge-2s8kKX{
     border-radius: 0;
     border: none;
     background: var(--cms-black3);
-    padding: 16px 10px;
-    transition: all 100ms ease;
+    padding: 1px 10px;
 }
 .peopleListItem-2nzedh:hover {
     background: var(--cms-black1);
@@ -375,6 +374,25 @@ a[href="/channels/@me"] .numberBadge-2s8kKX{
 .emptyCard-1RJw8n {
     background: var(--cms-black1);
 }
+/* Add friend dropdown START */
+.theme-dark .sectionHeader-20RGqu {
+	border: none;
+}
+.addInputWrapper-1BOZ3d {
+    background-color: var(--cms-accent);
+    border-bottom: 0;
+    z-index: 1;
+    animation: add-friend 300ms cubic-bezier(0.4, 0, 0, 1);
+    transform-origin: top;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+.wrapper-1cBijl {
+    background-color: var(--cms-black4);
+    border: none;
+    border-radius: 4px;
+}
+/* Add friend dropdown END */
+
 /* Friends tab END*/
 
 /* Guild list */
@@ -461,6 +479,9 @@ a[href="/channels/@me"] .numberBadge-2s8kKX{
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, 0.6);
     box-sizing: border-box;
+}
+.theme-dark .switchEnabled-V2WDBB.valueChecked-m-4IJZ {
+    background-color: var(--cms-accent);
 }
 .theme-dark .switchEnabled-V2WDBB::after {
     width: 10px;
@@ -789,3 +810,38 @@ a[href="/channels/@me"] .numberBadge-2s8kKX{
 	background-color: var(--cms-black4);
 }
 /* DM CALL END*/
+
+/* USER SETTINGS START */
+.contentRegionScroller-26nc1e {
+	background-color: var(--cms-black3);
+}
+.sidebarRegionScroller-3MXcoP {
+	background-color: var(--cms-black4);
+}
+.sidebarRegion-VFTUkN {
+	flex: 0;
+}
+.contentColumn-2hrIYH, .customColumn-Rb6toI {
+    flex: 1 1 auto;
+    left: 0;
+    right: 0;
+    min-width: 350px;
+    max-width: 840px;
+    margin: 0 auto;
+}
+/* Voice settings */
+.theme-dark .notches-1sAcEM.gray-3_LNYR {
+    background: none;
+}
+.theme-dark .progress-1IcQ3A {
+    background-color: var(--cms-black1);
+}
+.grabber-3mFHz2 {
+    width: 20px;
+    height: 20px;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: -10px;
+    border-radius: 50%;
+}
+/* USER SETTINGS END */
