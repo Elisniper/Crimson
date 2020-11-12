@@ -58,7 +58,7 @@
 .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
     color: #fff;
 }
-.header-2o-2hj, .clickable-2ap7je .header-2o-2hj:hover, .selected-WP3kCM .header-2o-2hj {
+.header-2V-4Sw, .clickable-25tGDB .header-2V-4Sw:hover, .selected-31Nl7x .header-2V-4Sw {
     background-color: var(--cms-accent);
 }
 .icon-22AiRD { 
@@ -68,7 +68,7 @@
 .private-channel-recipients-invite, .messagesPopoutWrap-1MQ1bW, .recentMentionsPopout-3rCiI6 {
     margin-top: 10px;
     margin-right: -10px;
-    animation: top-popout 450ms cubic-bezier(0.3, 0.3, 0, 1);
+    animation: top-popout 450ms cubic-bezier(0, 0.80, 0, 1.00);
 }
 .popout-103y-5 {
     max-height: 541px !important;
@@ -267,6 +267,16 @@
 }
 .messages-3G3erD {
     background-color: var(--cms-black1);
+}
+.secondary-dIudih {
+    color: #fff;
+    background: none;
+    transition: 100ms ease-in-out;
+}
+.secondary-dIudih:hover {
+    background-color: #2e885f;
+    transition: 100ms ease-in-out;
+    color: var(--interactive-active);
 }
 /* inbox dropdown END */
 /* New group DM dropdown */
@@ -795,8 +805,14 @@ a[href="/channels/@me"] .numberBadge-2s8kKX{
 }
 /* Members list END*/
 /* server channel list */
-.container-PNkimc {
+.container-3w7J-x {
     background-color: var(--cms-black3);
+}
+.modeSelected-1zApJ_ .content-3at_AU {
+    background-color: var(--cms-black1) !important;
+}
+.wrapper-1ucjTd:hover .content-3at_AU {
+    background-color: var(--cms-black2);
 }
 /* server channel list END */
 /* user controls */
@@ -898,14 +914,6 @@ a[href="/channels/@me"] .numberBadge-2s8kKX{
     padding: 2px 5px;
 }
 /* Context menu's END*/
-/* server channel list */
-.modeSelected-1zApJ_ .content-3at_AU {
-    background-color: var(--cms-black1) !important;
-}
-.wrapper-1ucjTd:hover .content-3at_AU {
-    background-color: var(--cms-black2);
-}
-/* server channel list END*/
 /* Buttons */
 
 /* Blue */
