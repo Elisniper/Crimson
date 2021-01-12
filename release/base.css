@@ -78,6 +78,9 @@
     box-shadow: 0 0 0 1px var(--bdd-level2), 0 5px 10px rgba(0, 0, 0, 0.3) !important;
     animation: top-popout 400ms cubic-bezier(0.3, 0.3, 0, 1);
 }
+.popout-103y-5 .header-1TKi98 {
+    background: var(--cms-accent);
+}
 .messagesPopoutWrap-1MQ1bW, .recentMentionsPopout-3rCiI6 {
     background-color: var(--cms-black1) !important;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3) !important;
@@ -280,9 +283,6 @@
 }
 /* inbox dropdown END */
 /* New group DM dropdown */
-.header-1TKi98 {
-    background-color: var(--cms-accent)
-}
 .noResults-ZTbl5V, .scroller-hUf6zQ {
     background: var(--cms-black1);
 }
@@ -292,6 +292,9 @@
 .akaBadge-1M-1Gw {
     margin-left: 8px;
     background-color: var(--cms-black1);
+}
+.container-2XeR5Z {
+    background-color: var(--cms-black1)
 }
 /* Top Icons Popouts END */
 /* Top Friends bar END*/
@@ -874,13 +877,126 @@ a[href="/channels/@me"] .numberBadge-2s8kKX{
 .input-cIJ7To {
     border-radius: 5px;
     background-color: var(--cms-black1);
-    border-color: solid var(--cms-black2);
+    border-color: transparent;
 }
 .input-cIJ7To:hover {
     border-color: var(--cms-black1);
 }
 .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
     border-color: var(--cms-blue) !important;
+}
+.questionMark-3qBhGj {
+    background-color: var(--cms-blue);
+}
+.content-1AKki_ {
+    padding-bottom: 16px;
+    padding-top: 10px;
+    background-color: var(--cms-black2);
+    border-radius: 0;
+}
+.theme-dark .footer-2gL1pp { 
+    background-color: var(--cms-black3);
+    box-shadow: inset 0 1px 0 var(--cms-black3);
+}
+.background-1QDuV2 {
+    background-color: transparent;
+}
+.menu-319q29 {
+    color: #fff;
+}
+.fieldList-21DyL8 {
+    background-color: var(--cms-black1);
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+    color: #fff;
+    background-color: var(--cms-blue);
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+    background-color: #b9bbbe;
+    color: var(--cms-black4);
+    transform: translateY(-1px);
+    transition: 100ms ease;
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV:active {
+    background-color: #b9bbbe;
+    color: var(--cms-black4);
+    transform: translateY(1px);
+    transition: 100ms ease;
+}
+.header-3ydO_m {
+    background-color: var(--cms-accent);
+}
+.header-3bB_GQ {
+    background: var(--cms-accent);
+}
+.content-2Cyhe6 {
+    padding-top: 10px;
+    background-color: var(--cms-black2);
+    border-radius: 0;
+}
+/* Privacy & Safety */
+.item-26Dhrx {
+    background-color: var(--cms-black2);
+    transition: 100ms ease;
+}
+.item-26Dhrx[aria-checked=true] {
+    background-color: var(--cms-black1);
+    transition: 100ms ease;
+}
+.item-26Dhrx:hover:not([aria-checked=true]) {
+    background-color: var(--cms-black2);
+    color: var(--interactive-hover);
+    transition: 100ms ease;
+}
+.radioIconForeground-XwlXQN {
+    color: var(--cms-blue);
+    transition: 100ms ease;
+}
+/* Connections */
+.accountList-33MS45 {
+    background-color: var(--cms-black1);
+}
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
+    background-color: var(--cms-black2);
+    border: none;
+}
+.connectionHeader-2MDqhu {
+    background: var(--cms-black2);
+}
+.connection-1fbD7X {
+    background-color: var(--cms-black1);
+}
+.integration-3kMeY4 {
+    background: var(--cms-black2);
+}
+/* Discord Nitro */
+.theme-dark .feature-2w65J5 {
+    background-color: var(--cms-black1);
+}
+.banner-WELp4M {
+    background-color: var(--cms-black1);
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    color: #000000;
+    background-color: #fff;
+    transition: 100ms ease;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+    background-color: #f8f9fd;
+    transform: translateY(-1px);
+    transition: 100ms ease;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91:active {
+    background-color: #e3e7f8;
+    transform: translateY(1px);
+    transition: 100ms ease;
+}
+.content-1YdlXf {
+    padding-bottom: 16px;
+    background: var(--cms-black1);
 }
 /* Voice settings */
 .theme-dark .notches-1sAcEM.gray-3_LNYR {
@@ -911,7 +1027,7 @@ a[href="/channels/@me"] .numberBadge-2s8kKX{
     animation: 140ms context-menu-open;
 }
 .scroller-3BxosC {
-    padding: 2px 5px;
+    padding: 2px 0px;
 }
 /* Context menu's END*/
 /* Buttons */
